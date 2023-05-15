@@ -1,0 +1,1 @@
+{"version":3,"file":"styles.css","mappings":";;;AAAA;IACI,UAAU;AACd,C;;;;ACFA;IACI,sBAAsB;AAC1B,C","sources":["webpack:///./client/pages/home.module.css","webpack:///./client/main.css"],"sourcesContent":[".test {\n    color: red;\n}","body {\n    background-color: grey;\n}"],"names":[],"sourceRoot":""}
