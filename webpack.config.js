@@ -61,6 +61,10 @@ module.exports = [
 					],
 					exclude: /\.module\.css$/,
 				},
+				{
+					test: /.(png|jpg|jpeg|ttf)$/i,
+					type: "asset/inline",
+				},
 			],
 		},
 		output: {

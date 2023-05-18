@@ -1,3 +1,8 @@
-body {
-    background-color: grey;
+@font-face {
+    font-family: sharda;
+    src: url('../../public/fonts/Sharada.ttf');
+}
+
+.sharda { 
+    font-family: sharda!important;
 }

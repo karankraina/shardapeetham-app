@@ -3,8 +3,8 @@ import {
 	createRoutesFromElements, Route, createBrowserRouter
 } from "react-router-dom";
 import { Layout } from "./layout/Layout";
-import { Home } from "./pages/Home";
-import { Lessons } from "./pages/Lessons";
+import { Home } from "./pages/home/Home";
+import { Lessons } from "./pages/lessons/Lessons";
 
 export const routeElements = (
 	
