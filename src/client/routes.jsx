@@ -5,6 +5,7 @@ import {
 import { Layout } from "./layout/Layout";
 import { Home } from "./pages/home/Home";
 import { Lessons } from "./pages/lessons/Lessons";
+import { AboutUs } from "./pages/about-us/AboutUs";
 
 export const routeElements = (
 	
@@ -19,6 +20,10 @@ export const routeElements = (
 		<Route
 			path="/lessons"
 			element={<Lessons />}
+		/>
+		<Route
+			path="/about-us"
+			element={<AboutUs />}
 		/>
 	</Route>
 

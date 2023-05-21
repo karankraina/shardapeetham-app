@@ -7,6 +7,7 @@ export function Header() {
 		<nav>
 			<Link to={"/"} >Homepage</Link>
 			<Link to={"/lessons"} >Lessons</Link>
+			<Link to={"/about-us"} >About Us</Link>
 		</nav>
 	);
 }

@@ -13,3 +13,6 @@ router.get("/lessons", (request, response) => {
 	);
 });
 
+router.get("/about-us", (request, response) => {
+	response.send(`<h1>About Us from API</h1>`);
+});
