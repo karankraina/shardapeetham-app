@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import NavbarComponent1 from "../../components/Navbar1";
+import NavbarComponent2 from "../../components/Navbar2";
 
 export function Header() {
 	return (
-		<nav>
-			<Link to={"/"} >Homepage</Link>
-			<Link to={"/lessons"} >Lessons</Link>
-			<Link to={"/about-us"} >About Us</Link>
-		</nav>
+		<>
+			<NavbarComponent1 />
+			{/* <NavbarComponent2 /> */}
+		</>
 	);
 }

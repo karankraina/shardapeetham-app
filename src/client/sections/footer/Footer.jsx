@@ -1,9 +1,14 @@
 import React from "react";
+import { Navbar, Container } from 'react-bootstrap';
 
 export function Footer() {
 	return (
-		<nav>
-			<h1>This is footer</h1>
-		</nav>
+		<Navbar bg="dark" variant="dark" fixed="bottom">
+			<Container>
+				<Navbar.Text>
+				©2023 Shardapeetham. All rights reserved.
+				</Navbar.Text>
+			</Container>
+		</Navbar>
 	);
 }
